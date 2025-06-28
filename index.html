@@ -12,6 +12,8 @@
   <meta property="og:url" content="https://chargedose.whatsthetime.online" />
   <meta property="og:type" content="website" />
 
+  <link rel="shortcut icon" href="/chargedose.ico" type="image/x-icon">
+
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -68,6 +70,8 @@
     }
 
     .logo {
+      display: flex;
+      gap: 5px;
       font-size: 1.25rem;
       font-weight: 600;
       color: #ffffff;
@@ -125,6 +129,7 @@
       background: #0ec761;
       border: 1px solid #333;
       color: #1d1d1d;
+      font-weight: bold;
       padding: 0.85rem 1.75rem;
       font-size: 1rem;
       border-radius: 0.75rem;
@@ -184,7 +189,10 @@
 <body>
 
   <header>
-    <div class="logo"><a href="/">ChargeDose</a></div>
+    <div class="logo">
+      <img src="chargedose.ico">
+      <a href="/">ChargeDose</a>
+    </div>
     <nav>
       <a href="https://whatsthetime.online" target="_blank">What's The Time</a>
       <a href="#download">Download</a>
